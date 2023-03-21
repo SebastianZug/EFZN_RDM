@@ -64,7 +64,7 @@ For the original paper, see:https://www.nature. articles/sdata201618 UA", which 
  Quelle: 
  [FAIR Guiding Principles](aten.org/index.php/FAIR_data_principlesratory <!--insert graph)
  
- ![FAIR Guiding Principles](EFZN_RDM/FAIR.png)<!--width="100%"-->t
+ ![FAIR Guiding Principles](EFZN_RDM/FAIR.png)<!--width="100%"-->
  
 Which measures make your data FAIRer?       
 [[x]] using Creative-Commons or GNU Licenses
