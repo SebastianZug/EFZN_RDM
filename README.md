@@ -12,11 +12,17 @@ logo:     ![efzn-logo](img/efzn-logo.png)
 
 -->
 
-
+----
 # EFZN_RDM
+{:.no_toc}
+
 Resources and Materials for the RDM Course sponsored by EFZN
 ![Logo-Block](img/efzn-logo.png)
 
+- TOC
+{:toc}
+
+----
 
 # Course Overview
 
@@ -25,9 +31,8 @@ Welcome to "Research Data Management in the Energy Sector"! This course is dedic
 The course will focus on applicability in the energy sector.
 
 ### Roadmap
-<!---
-Insert h5p-map here 
---> 
+
+<iframe src="https://wp.uni-oldenburg.de/innovative-hochschule-jade-oldenburg-wise20182019/wp-admin/admin-ajax.php?action=h5p_embed&id=19" width="958" height="663" frameborder="0" allowfullscreen="allowfullscreen" title="Research Data Management in the Energy Sector"></iframe><script src="https://wp.uni-oldenburg.de/innovative-hochschule-jade-oldenburg-wise20182019/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 If you complete the course, you will have established a basic Data Management Plan for a project of your choice that you can build upon and adapt. However, if you have time restraints or already a broad understanding of handling research data, you may choose to go for individual learning sections by clicking on them.
 
@@ -74,7 +79,7 @@ RDM includes all activities associated with
 of research data.
 
 
-![Reseach Data Lifecycle](img/DataLifecycle.png)
+![Reseach Data Lifecycle](img/DataLifecycle.png){: .shadow}
 
 
 Quelle: https://ukdataservice.ac.uk/learning-hub/research-data-management/, recreated by Antje Ahrens. Licensed under CC-BY-4.0
