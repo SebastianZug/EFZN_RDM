@@ -10,19 +10,18 @@ narrator: US English Female
 
 logo:     ![efzn-logo](img/efzn-logo.png)
 
+script: https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
+        https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
+
+link:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
+
 -->
 
 ----
 # EFZN_RDM
-{:.no_toc}
 
 Resources and Materials for the RDM Course sponsored by EFZN
 ![Logo-Block](img/efzn-logo.png)
-
-- TOC
-{:toc}
-
-----
 
 # Course Overview
 
@@ -32,7 +31,7 @@ The course will focus on applicability in the energy sector.
 
 ### Roadmap
 
-<iframe src="https://wp.uni-oldenburg.de/innovative-hochschule-jade-oldenburg-wise20182019/wp-admin/admin-ajax.php?action=h5p_embed&id=19" width="958" height="663" frameborder="0" allowfullscreen="allowfullscreen" title="Research Data Management in the Energy Sector"></iframe><script src="https://wp.uni-oldenburg.de/innovative-hochschule-jade-oldenburg-wise20182019/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+<script src="https://wp.uni-oldenburg.de/innovative-hochschule-jade-oldenburg-wise20182019/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 If you complete the course, you will have established a basic Data Management Plan for a project of your choice that you can build upon and adapt. However, if you have time restraints or already a broad understanding of handling research data, you may choose to go for individual learning sections by clicking on them.
 
@@ -79,7 +78,7 @@ RDM includes all activities associated with
 of research data.
 
 
-![Reseach Data Lifecycle](img/DataLifecycle.png){: .shadow}
+![Reseach Data Lifecycle](img/DataLifecycle.png)
 
 
 Quelle: https://ukdataservice.ac.uk/learning-hub/research-data-management/, recreated by Antje Ahrens. Licensed under CC-BY-4.0
@@ -117,11 +116,11 @@ For the original paper on the FAIR Guiding Principles, see: https://www.nature.c
 
 > **Quiz**: What can you do to make your data FAIRer?    
 
-    [[X]] use Creative-Commons or GNU Licenses
-    [[ ]] keep processing details undisclosed
-    [[ ]] ensure access security 
-    [[X]] create detailed Metadata    
-    [[X]] ensure long-term accessibility in repositories
+[[X]] use Creative-Commons or GNU Licenses
+[[ ]] keep processing details undisclosed
+[[ ]] ensure access security 
+[[X]] create detailed Metadata    
+[[X]] ensure long-term accessibility in repositories
 
 
 ---
@@ -155,3 +154,11 @@ Congratulations! You have started your first DMP!
 ## Sources: 
 * Maxi Kindling, Peter Schirmbacher, Elena Simukovic: Forschungsdatenmanagement an Hochschulen: das Beispiel der Humboldt-Universität zu Berlin. LIBREAS. Library Ideas, 23 (2013).
 https://doi.org/10.18452/9041.
+
+
+
+``` markdown     Feedback.md
+
+Enter your Feedback here 
+
+```
