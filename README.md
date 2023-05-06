@@ -4,6 +4,7 @@ author:   C3L
 email:    antje.ahrens@uol.de
 Version:  1.0
 language: en
+license:  http://creativecommons.org/licenses/by/4.0/
 
 mode:     Presentation
 
@@ -17,6 +18,9 @@ script: https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
 link:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
 -->
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+
 
 ![Logo-Block](img/Logoblock.png)
 
@@ -185,3 +189,6 @@ Congratulations! You have started your first DMP!
 * FAIR Guiding Principles: https://www.go-fair.org/
 
 * UK Data Service: https://ukdataservice.ac.uk/learning-hub/research-data-management/ 
+
+
+[![CC BY 4.0][cc-by-image]][cc-by]  This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by]. 
