@@ -1,14 +1,15 @@
-<!--
+
+<!-- 
 author:   C3L
 email:    antje.ahrens@uol.de
 Version:  1.0
 language: en
 
-mode:     Textbook
+mode:     Presentation
 
 narrator: US English Female
 
-logo:     ![efzn-logo](img/efzn-logo.png)
+logo:     ![efzn-logo](/img/efzn-logo.png)
 
 script: https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
         https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
@@ -17,42 +18,19 @@ link:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 
 -->
 
-----
-# EFZN_RDM
+![Logo-Block](img/Logoblock.png)
 
-Resources and Materials for the RDM Course sponsored by EFZN
-![Logo-Block](img/efzn-logo.png)
+# Research Data Management
 
-# Course Overview
-
-Welcome to "Research Data Management in the Energy Sector"! This course is dedicated to teach all skills necessary to understand the principles and motivation behind Research Data Management (RDM) and enable you to implement RDM in your work and research group.
-
-The course will focus on applicability in the energy sector.
-
-### Roadmap
-
-<script src="https://wp.uni-oldenburg.de/innovative-hochschule-jade-oldenburg-wise20182019/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
-
-If you complete the course, you will have established a basic Data Management Plan for a project of your choice that you can build upon and adapt. However, if you have time restraints or already a broad understanding of handling research data, you may choose to go for individual learning sections by clicking on them.
-
+[Introduction](chapters/INTRODUCTION.md)
 
 ---
 
 
-## What is Research Data Management?
+## <a name="rdm"></a> What is Research Data Management?
+[Lifecycle]: img/DataLifecycle.png  "The Research Data Lifecycle"
 
- 
-
-
-<!--Scenario 2: In 2009, T-Mobile was the largest mobile network provider in Germany with over 40 million customers. Nevertheless, on April 21st a service disruption occurred at around 4 p.m., which was to go down as the biggest in history. In one fell swoop, millions of customers were suddenly unable to connect to the network. Calls could not be connected, nor could SMS be sent. The reason for this was a simultaneous failure of all three home location registers. Together, these three servers form a distributed database and are a central component of every mobile network. Normally, the network could still function as long as only one of the three servers is still active. But how did all three servers suddenly crash?
-The answer was made public in the press a few days later. A faulty software update was installed on all three servers at the same time. Because of this, the servers could not support each other because they were struggling with the same problem. It was only at around 8 p.m. of the same day that the software update was cleaned up and a large part of the network was restored to operation.
-
-[[There are several solutions possible: the most important precaution when running new software is to test it in a safe environment whose potential failure will not affect the functionaluty of the system at large. Also, a step-by-step procedure updating only one server at a time could have limited damage. ]]
-
-Scenario 3: you read a fascinating paper in a neighbouring reseach field. You are immediately intrigued - you could build upon these results with your research! But unfortunately, the data and metadata were not uploaded in a repository. So you try to contact the author of the paper. Unfortunately, she doesn't work at the respective institute anymore and does not have access to the in-house file system anymore. She refers you to her graduate student who did the actual study - but he married and has changed his surname. Finally, you get a hold of him and he sends you the data file - unfortunately, it is full of cryptic acronyms and the software he used to process the data has been discontinued... 
-
-Scenario 4: use the [TIB-Video](https://av.tib.eu/media/31036)
--->
+### Case Study 
 
 In early 2020, the COVID-19 disease, caused by the coronavirus SARS-CoV2, broke out globally, which led to the closure of many shops and businesses for quarantine reasons. The result, especially in the USA, was a large number of unemployed people who urgently needed money for their next rent payment, food or other expenses. As a consequence, the government decided to set up a relief package for anyone who registers as unemployed - but why didn't the money get to the people?
 The reason for this was the overload of critical systems on which COBOL is still running. COBOL is a programming language that was developed in the late 1950s to control commercial applications. From today's perspective, the programming language is very outdated and no longer taught in the training of programmers. That is why there was no personnel to take care of the systems when they collapsed. Unfortunately, many applications with the outdated programming language are still running in the business sector. 
@@ -60,9 +38,9 @@ The reason for this was the overload of critical systems on which COBOL is still
 >**Exercise**: Suggest two possible process changes that could have prevented the outcome of the scenario:
 
 [[There are several solutions possible: Existing systems should be questioned, since requirements can change and established habits can lead to problems from today's perspective. For example, at some point data might no longer be able to be called up or might exist in formats that are increasingly difficult to be processed. A thorough documentation of the programs might also help in some cases to rebuild them in other languages. For timely relief, the administration called out to retired COBOL programmers to ]]
-<!--- Infobox: 3-2-1- rule at some point, maybe in Tools&Tricks-->
 
-Source: [Scarytales 26: If it ain't broken... CC 0](https://forschungsdaten-thueringen.de/fdm-scarytales/articles/ueberblick.html)
+
+Source: [FDM Thüringen: Scarytales](https://forschungsdaten-thueringen.de/fdm-scarytales/articles/ueberblick.html)
 
 While maybe not as critical for society at large, scientists can face similar problem when trying to access old data or programs that were written for other purposes but are know needed for the current tasks: Data are insufficiently labeled, have been overwritten, commercial computer programs have been discontinued or process details have not been recorded.
 
@@ -73,28 +51,36 @@ RDM includes all activities associated with
 * processing
 * storage
 * preserving and
-* publication
+* publication of research data.
 
-of research data.
+### The Research Data Lifecycle
+
+![Reseach Data Lifecycle][Lifecycle]
 
 
-![Reseach Data Lifecycle](img/DataLifecycle.png)
+The Research Data Lifecycle. Original source: [UK Data Service](https://ukdataservice.ac.uk/learning-hub/research-data-management/), recreated by Antje Ahrens. Licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
 
 
-Quelle: https://ukdataservice.ac.uk/learning-hub/research-data-management/, recreated by Antje Ahrens. Licensed under CC-BY-4.0
-
+### Benefits of RDM
 
 ---
 
+## <a name="fair"></a> Make it FAIR
+
+### Open Science
+
+Open Science strives to to make scientific research and its dissemination **accessible to all levels of society**. It encompasses practices such as publishing open research, campaigning for open access, encouraging scientists to practice **open-notebook science** (such as openly sharing data and code), broader dissemination and engagement in science and generally making it easier to publish, access and communicate scientific knowledge. 
+
+Source: https://en.wikipedia.org/wiki/Open_science 
 
 
-## Open Science
-
->**Research**: Is there an open science or research data policy at your institution?
+>**Research Question**: Is there an Open Science or Research Data Policy at your institution?
 What is its scope? What is regulated and how?
 If not: 
-Would you like to have a research data policy?
+Would you like to have a Research Data Policy?
 What content should it have?
+
+For our 
 
 ### FAIR Guiding Principles
 
@@ -107,11 +93,11 @@ This is the main idea behind the FAIR principles. The acronym stands for
 * Interoperable
 * Re-Usable
 
-For the original paper on the FAIR Guiding Principles, see: https://www.nature.com/articles/sdata201618
-<!-- insert doi and title here instead -->
 
->**Exercise**: Look closely at the graph to indentify which measures especially apply to your area of work and data types you are using.
+>**Exercise**: Look closely at the graph to identify which measures especially apply to your area of work and data types you are using.
+
 ![FAIR Guiding Principles](img/FAIR.png)
+Source: https://www.go-fair.org/fair-principles/ 
 
 
 > **Quiz**: What can you do to make your data FAIRer?    
@@ -126,39 +112,76 @@ For the original paper on the FAIR Guiding Principles, see: https://www.nature.c
 ---
 
 
-## Data Management Plan
-The Data Management Plan (DMP) contains all information that describes and documents sufficiently the collection, processing, storage, archiving and publication of research data within a research project.  
+## <a name="dmp"></a> Data Management Plan
+The **Data Management Plan (DMP)** contains all information that describes and documents sufficiently the collection, processing, storage, archiving and publication of research data within a research project.  
 
 Many public funding organizations require a DMP prior to granting funds for research projects, thus making DMPs an integral part of the scientific process, especially in data-intensive research fields such as the energy sector.
 
-![Funder Requirements](img/Funder_Requirements.png)
---> hier am besten relevante Geldgeber für die Branche einfügen
 
-A Data Manage 
+| Funder | Plan demanded? | Content | Updates? |
+|:-------|:--------------------------|:--------|:---------------|
+|Horizon Europe| Data Management Plan|see [Horizon Europe Online Manual](https://op.europa.eu/en/web/eu-law-and-publications/publication-detail/-/publication/9570017e-cd82-11eb-ac72-01aa75ed71a1)|Yes|
+|[German Research Foundation (DFG)](https://www.dfg.de)     |Information on the handling of research data|[DFG Guidelines on the Handling of Research Data](https://www.dfg.de/en/research_funding/principles_dfg_funding/research_data/), Checklist|No|
+|[German Ministry for Economic Affairs and Climate Action (BMWK)](https://www.bmwk.de/)| Research Data Exploitation Plan|scientific and economic potential, connectivity and transferability|once a year|
+|[German Ministry of Education and Research (BMBF)](https://www.bmbf.de/bmbf/de/forschung/digitale-wirtschaft-und-gesellschaft/aktionsplan-forschungsdaten/aktionsplan-forschungsdaten_node.html)   |Plan sometimes required|Content depends on the respective programme||
+|[German Ministry for Digital and Transport (BMDV)](https://bmdv.bund.de)|Research Data Exploitation Plan sometimes required |Content depends on the respective programme||
 
-![DMP Tutorial](img/RS91_Was%20sind%20Datenmanagementplaene.mp4)
---> brauche ich aber auf englisch!
 
-There are several tools available that can be helpful in the creation of a DMP (see Tricks & Tools for some examples). In our example, we will work with **RDMO**, a tool that can be used collaboratively and exports into different formats. 
+A Data Manage
+
+<iframe width="640" height="390" 
+    src="https://www.youtube.com/watch?v=GRNsLTQGjCo" 
+    frameborder="0" allowfullscreen></iframe>
+ Ghent University Data Stewards (2020): Knowledge clip: Data Management Plans (DMPs). Available at: https://www.youtube.com/watch?v=GRNsLTQGjCo. Licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en)
+
+
+There are several tools available that can be helpful in the creation of a DMP (see [Tools and Strategies](#tools) for some examples). In our example, we will work with **RDMO**, a tool that can be used collaboratively and exports into different formats. 
 
 Start by clicking on the following Link:
 https://rdmo.forschungsdaten.info/
 
---> work with short screencasts/gifs that show the important steps
+| Header 1   | Header 2   | Header 3   |
+| :--------- | :--------- | :--------- |
+| Item 1     | Item 2     | Item 3     |
 
 >**Exercise**: Choose a questionnaire that you want to follow. Start by filling in your project details.
 
 Congratulations! You have started your first DMP!
 
+---
 
-## Sources: 
-* Maxi Kindling, Peter Schirmbacher, Elena Simukovic: Forschungsdatenmanagement an Hochschulen: das Beispiel der Humboldt-Universität zu Berlin. LIBREAS. Library Ideas, 23 (2013).
-https://doi.org/10.18452/9041.
+## <a name="tools"></a> Tools and Strategies
 
+### Tools
 
+### Legal Aspects
 
-``` markdown     Feedback.md
+---
 
-Enter your Feedback here 
+## <a name="Infrastructure"></a> Infrastructure
 
-```
+### Data Types 
+
+### Repositories
+
+### Back-Up 
+
+### Access 
+
+---
+## <a name="meta"></a> Metadata
+
+---
+
+## <a name="congrats"></a> Congratulations
+
+---
+
+## <a name="sources"></a> Sources: 
+* Maxi Kindling, Peter Schirmbacher, Elena Simukovic: Forschungsdatenmanagement an Hochschulen: das Beispiel der Humboldt-Universität zu Berlin. LIBREAS. Library Ideas, 23 (2013). https://doi.org/10.18452/9041.
+
+* Biernacka, Katarzyna; Maik Bierwirth; Petra Buchholz, Dominika Dolzycka; Kerstin Helbig; JannaNeumann; Carolin Odebrecht; Cord Wiljes and Ulrike Wuttke: Train-the-Trainer Concept on Research Data Management. Version 3.0. Berlin, 2020. https://doi.org/10.5281/zenodo.4071471
+
+* FAIR Guiding Principles: https://www.go-fair.org/
+
+* UK Data Service: https://ukdataservice.ac.uk/learning-hub/research-data-management/ 
