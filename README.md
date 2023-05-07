@@ -133,10 +133,10 @@ Many public funding organizations require a DMP prior to granting funds for rese
 
 A Data Manage
 
-<iframe width="640" height="390" 
-    src="https://www.youtube.com/watch?v=GRNsLTQGjCo" 
-    frameborder="0" allowfullscreen></iframe>
- Ghent University Data Stewards (2020): Knowledge clip: Data Management Plans (DMPs). Available at: https://www.youtube.com/watch?v=GRNsLTQGjCo. Licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en)
+ !?[Ghent University Data Stewards (2020)](https://www.youtube.com/watch?v=GRNsLTQGjCo "Data Management Plans (DMPs) [^GhentUniversity]") 
+
+
+
 
 
 There are several tools available that can be helpful in the creation of a DMP (see [Tools and Strategies](#tools) for some examples). In our example, we will work with **RDMO**, a tool that can be used collaboratively and exports into different formats. 
@@ -153,6 +153,8 @@ https://rdmo.forschungsdaten.info/
 Congratulations! You have started your first DMP!
 
 ---
+
+[^GhentUniversity]: Ghent University Data Stewards (2020): Knowledge clip: Data Management Plans (DMPs). Available at: https://www.youtube.com/watch?v=GRNsLTQGjCo. Licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en
 
 ## <a name="tools"></a> Tools and Strategies
 
